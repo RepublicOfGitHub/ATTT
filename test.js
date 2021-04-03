@@ -1,1 +1,5 @@
-<script>alert(2)</script>
+document.getElementById("myButton").addEventListener("click", myFunction);
+
+function myFunction(){
+  console.log('asd');
+}
