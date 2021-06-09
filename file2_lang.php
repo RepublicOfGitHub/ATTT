@@ -1,3 +1,3 @@
 <?php
-	system("ls;");
+	print_r(scandir('.'));
 ?>
