@@ -1,0 +1,11 @@
+<rss version="2.0">
+
+<channel>
+  <title>W3Schools Home Page</title>
+  <item>
+    <title>RSS Tutorial</title>
+    <description>New RSS tutorial on W3Schools</description>
+  </item>
+</channel>
+
+</rss>
