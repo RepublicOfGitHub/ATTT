@@ -1,0 +1,16 @@
+<rss version="2.0">
+
+<channel>
+  <title>W3Schools Home Page</title>
+  <item>
+    <title>            
+        <![CDATA[ 
+            <?xml version="1.0" encoding="UTF-8"?>
+            <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+            <stockCheck><productId>&xxe;</productId></stockCheck>
+            ]]>
+    </title>
+ </item>
+</channel>
+
+</rss>
